@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Watch ALa</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/4099277a03.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jwplayer.com/libraries/rF4PZ0FW.js"></script>
+</head>
+
+<body>
+    <nav>
+        <button class="fas fa-bars" onclick="accion()"></button>
+        <h1 class="titulonav1"></h1>
+        <img class="icono"
+            src="https://1.bp.blogspot.com/-CmBVkePFCq0/XsCdBdHldzI/AAAAAAAAAGU/IcclmTWZgCscwluYPzE9hrw4Qg6a0mTCgCK4BGAYYCw/s1600/LogoMakr_5CQWFM.png"
+            alt="">
+        <nav class="menu">
+            <button class="nav-boton" onclick="accion()">Menu</button>
+            <a href="../index.html" class="nav-enlaces desaparece">Inicio</a>
+            <a href="../categorias/categorias.html" class="nav-enlaces desaparece">Categorias</a>
+            <a href="../Acerca-de/Acerca-de.html" class="nav-enlaces desaparece">Acerca de</a>
+            <a href="../Poli-&-terms/Politica de privacidad y condiciones.html" class="nav-enlaces desaparece">Politica
+                de privacidad y condiciones</a>
+        </nav>
+    </nav>
+
+
+
+    <div class="container">
+        <h2 class="namemovie-reaptdown">Hereditary</h2>
+        <img class="img-reaptown"
+            src="https://m.media-amazon.com/images/M/MV5BMTUyNzkwMzAxOF5BMl5BanBnXkFtZTgwMzc1OTk1NjE@._V1_UX182_CR0,0,182,268_AL_.jpg">
+
+        <p class="hola">Nueva Inglaterra en el año 1630. Una familia de colonos cristiana, formada por un matrimonio y
+            sus cinco hijos, vive cerca de un bosque que, según las creencias populares, está controlado por un mal
+            sobrenatural. Cuando su hijo recién nacido desaparece y los cultivos no crecen, los miembros de la familia
+            se rebelan los unos contra los otros. Más allá de sus peores temores, un mal sobrenatural les acecha en el
+            bosque cercano.
+        </p>
+
+        <p class="hola">Director: No disponible....<br>
+            Genero: Misterio Terror<br>
+            Actores: No disponibles....</p>
+        <br>
+
+        <IFRAME SRC="https://upstream.to/embed-5yyr5atn56ri.html" FRAMEBORDER="0" MARGINWIDTH="0" MARGINHEIGHT="0" SCROLLING="NO" WIDTH="640" HEIGHT="360" allowfullscreen></IFRAME>
+        <!--        <div class="box-player">
+            <div id="player">
+            </div>
+            <script class="player" type="text/javascript">
+                jwplayer("player").setup({
+                    file: "https://archive.org/download/hereditary_202010/Hereditary.mp4",
+                    image: "ACA-EL-POSTER",
+                    height: "300px",
+                    width: "380px",
+                    stretching: "exactfit",
+                });
+            </script>
+        </div>-->
+
+
+
+        <footer>
+            <br>
+            <br>
+            <p>© WACH ALA - TODOS LOS DERECHOS RESERVADOS</p><br>
+            <p class="aclaracion">Este sitio no almacena ningún video en sus servidores, ni enlaza directamente, solo
+                comparte contenido almacenado en sitios dedicados a compartir archivos de manera gratuita.</p>
+            <br>
+            <a class="avisos-footer" href="../Poli-&-terms/Politica de privacidad y condiciones.html">Politica de
+                privacidad |</a>
+            <a class="avisos-footer" href="#">DMCA</a>
+        </footer>
+
+        <script>
+            function accion() {
+                console.log('hola');
+                var ancla = document.getElementsByClassName('nav-enlaces');
+                for (var i = 0; i < ancla.length; i++) {
+                    ancla[i].classList.toggle('desaparece');
+                }
+            }
+        </script>
+
+</body>
+
+</html>

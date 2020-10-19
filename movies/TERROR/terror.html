@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Watch ALa</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/4099277a03.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jwplayer.com/libraries/rF4PZ0FW.js"></script>
+</head>
+
+<body>
+    <nav>
+        <button class="fas fa-bars" onclick="accion()"></button>
+        <h1 class="titulonav1"></h1>
+        <img class="icono"
+            src="https://1.bp.blogspot.com/-CmBVkePFCq0/XsCdBdHldzI/AAAAAAAAAGU/IcclmTWZgCscwluYPzE9hrw4Qg6a0mTCgCK4BGAYYCw/s1600/LogoMakr_5CQWFM.png"
+            alt="">
+        <nav class="menu">
+            <button class="nav-boton" onclick="accion()">Menu</button>
+            <a href="../../index.html" class="nav-enlaces desaparece">Inicio</a>
+            <a href="../../categorias/categorias.html" class="nav-enlaces desaparece">Categorias</a>
+            <a href="Acerca-de/Acerca-de.html" class="nav-enlaces desaparece">Acerca de</a>
+            <a href="../../Poli-&-terms/Politica de privacidad y condiciones.html" class="nav-enlaces desaparece">Politica
+                de privacidad y condiciones</a>
+        </nav>
+    </nav>
+
+    <h3>TERROR</h3>
+    <div class="contenedor">
+        <div class="imagen1"><a href="Hereditary.html"><img class="imagenes-prin" 
+            src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/hvEIQPwUCeBzWXQe8GAd72pHwe0.jpg" alt="Hederitary"></a>
+            <h2 class="nombre">Hederitary</h2></div>
+
+            <div class="imagen1"><a href="La bruja.html"><img class="imagenes-prin" 
+                src="https://m.media-amazon.com/images/M/MV5BMTUyNzkwMzAxOF5BMl5BanBnXkFtZTgwMzc1OTk1NjE@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="Hederitary"></a>
+                <h2 class="nombre">La bruja</h2></div>
+
+                <div class="imagen1"><a href="The babadook.html"><img class="imagenes-prin" 
+                    src="https://m.media-amazon.com/images/M/MV5BMTk0NzMzODc2NF5BMl5BanBnXkFtZTgwOTYzNTM1MzE@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="Avengers: End game"></a>
+                    <h2 class="nombre">The Babadook</h2></div>
+
+    </div>
+
+    <a  class="ver-todas" href="">Ver todas</a>
+
+        <footer>
+            <br>
+            <br>
+            <p>© WACH ALA - TODOS LOS DERECHOS RESERVADOS</p><br>
+            <p class="aclaracion">Este sitio no almacena ningún video en sus servidores, ni enlaza directamente, solo
+                comparte contenido almacenado en sitios dedicados a compartir archivos de manera gratuita.</p>
+            <br>
+            <a class="avisos-footer" href="../../Poli-&-terms/Politica de privacidad y condiciones.html">Politica de
+                privacidad |</a>
+            <a class="avisos-footer" href="#">DMCA</a>
+        </footer>
+
+        <script>
+            function accion() {
+                console.log('hola');
+                var ancla = document.getElementsByClassName('nav-enlaces');
+                for (var i = 0; i < ancla.length; i++) {
+                    ancla[i].classList.toggle('desaparece');
+                }
+            }
+        </script>
+
+</body>
+
+</html>
